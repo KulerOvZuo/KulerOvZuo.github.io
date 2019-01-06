@@ -290,6 +290,8 @@ header img.logo {
     padding: 0.6em;
     min-width: 100px;
     border: 2px #292929 solid;
+    background-color: #a66fd3;
+    color: azure;
 }
 
 .section .prices table td {
@@ -299,7 +301,7 @@ header img.logo {
 }
 
 .section .prices table img {
-    margin: 0;
+    margin: 0.3em;
 }
 
 /* footer */
