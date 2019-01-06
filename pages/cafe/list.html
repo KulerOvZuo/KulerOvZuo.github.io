@@ -12,16 +12,15 @@
         <meta name="description" content="Ciasta Andrzeja - przepisy" />
         <meta name="keywords" content="ciasta torty cukiernia przepisy" />
 
-        <base href="">
+        <base href="../../">
 
-        <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
-        <script src="../js/main.js"></script>  
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     </head>
     <body align="center">
         <div id="main-container" >
             <header class="section">
                 <a href="index.html" title="Strona główna">
-                    <img src="../static/Logo_transparent.png" alt="logo Ciasta Andrzeja"
+                    <img src="static/Logo_transparent.png" alt="logo Ciasta Andrzeja"
                         class="logo">
                 </a>
                 <div id="contact-box">
@@ -43,9 +42,9 @@
                     <ul>
                         <li>
                             <a href="index.html"><div class="top-menu-link">Strona główna</div></a>
-                        </li>                
+                        </li>  
                         <li class="top-menu-expandable">
-                            <a href="pages/cafe/list.html"><div class="top-menu-link">Kawiarnie</div></a>
+                            <a href="pages/cafe/list.html"><div class="top-menu-link top-menu-link-selected">Kawiarnie</div></a>
                             <ul class="top-menu-expandable-object">
                                 <li>
                                     <a href="pages/cafe/bialystok.html"><div class="top-menu-link">Białystok</div></a>
@@ -77,10 +76,25 @@
             </header>
     
             <main class="section">
+                <div class="inner-section-container">
+                    <h2>Kawiarnie</h2>
+                    <ul>
+                        <li>
+                            <a href="pages/cafe/bialystok.html">
+                                <div class="section-link">Białystok</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/cafe/warszawa.html">
+                                <div class="section-link">Warszawa</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </main>
     
             <footer class="section">
-                <img src="../static/mail.png"  alt="mail" title="mail"
+                <img src="static/mail.png"  alt="mail" title="mail"
                         width="50px" height="50px" style="width:50px;min-height:50px;"/>
                 <div id="form-newsletter-header">Zapisz się do Newsletter i bądź na bieżąco z nowymi ofertami! :)</div>
                 <div id="form-newsletter">
